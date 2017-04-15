@@ -1,0 +1,9 @@
+{
+    "team":{
+        "insert":"INSERT INTO team SET ?",
+        "update":"UPDATE team SET ? WHERE id = ?",
+        "getOne":"SELECT * FROM team WHERE id = ?",
+        "getAll":"SELECT * FROM team",
+        "delete":"DELETE FROM team WHERE id = ?"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "crud-mysql",
+  "version": "1.1.0",
+  "description": "ejemplo de API REST MVC crud con mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "author": "Karla",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-method-override": "0.0.3",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.13.0",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.4.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
